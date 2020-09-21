@@ -61,3 +61,12 @@ a:hover {
   background-color: white;
   color: black;
 }
+
+@media all and (max-width: 1160px) {
+  header {
+    width: 100%;
+  }
+  input {
+    width: 250px;
+  }
+}
