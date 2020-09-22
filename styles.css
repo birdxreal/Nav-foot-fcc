@@ -57,15 +57,45 @@ img {
   padding-left: 35px;
 }
 
-a:hover {
+.links a:hover {
   background-color: white;
   color: black;
 }
 .section {
   height: 100vh;
 }
-.footer li a {
+
+.footer {
+  border: 2px solid red;
+  display: flex;
+}
+
+.trending-guide-rows,
+.colum-header {
+  display: block;
+  text-align: center;
+}
+
+footer a {
   color: black;
+  font-family: sans-serif;
+  padding: 8px, 7px;
+}
+
+.footer a:hover {
+  background-color: none;
+  text-decoration: underline;
+}
+.trending-guide-rows {
+  display: flex;
+  justify-content: space-between;
+}
+.colum-1,
+.colum-2,
+.colum-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 @media all and (max-width: 1160px) {
