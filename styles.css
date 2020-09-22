@@ -64,6 +64,9 @@ a:hover {
 .section {
   height: 100vh;
 }
+.footer li a {
+  color: black;
+}
 
 @media all and (max-width: 1160px) {
   header {
